@@ -10,17 +10,11 @@ Start
 	Save in Arthur's House, Item Quit
 
 Booster 2.0
-	Inventory Teleport to anywhere
-	Leave through Teleporter [Sand Zone]
-	Go to Curly's House, Item Quit
-	Inventory Teleport to Bushlands, Enter Santa's Door to Curly's Side Room
-	Save, return to house, item quit
-	exit door, item quit in sand zone
-	collect health at panties chest as needed, save
-	exit door, exit arthur's house, item quit in mimiga village
-	collect Panties Chest (WEAPONS OF DEATH)
-	save in arthur's house, item quit in mimiga village, talk to anyone, equip booster 2.0, save, reload
- 
+    load file 2, exit door (Sand Zone), IQ
+    load file 1, exit door (Main Artery), IQ (you can die here!)
+    interact with door
+    go back to Arthur's House, receive BOOSTER 2.0, save
+
 Spur
 	go to hermit gunsmith's house, item quit
 	inventory teleport to bushlands, collect missile chest (SPUR), save at far right save point, reset
