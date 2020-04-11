@@ -1,53 +1,33 @@
-Bosses must be killed "as intended" through damage - simply flagging them defeated is not enough - in the opposite order of their intended order, with the exception of Ballos - as the game ends after his defeat - and Heavy Press - who it is impossible to save after defeating as of this moment.
+Updated Route w/Nemesis
 
-It is allowed to trigger the death of bosses so long as that boss can still be defeated in the sequence required.
+F1: opening to shack, IQ
+F2: do the balrog thing, door, collect map system, save in mibox, IQ in mimi
+TA: fireball chest, IQ
+F1: door, teleporter, save, mimi IQ *optional: collect 2 hp life capsule for added safety, loses about 15 seconds*
+F1: computer, save
 
-This route is not optimized and missing some things i right now just know how to do, after CSM submissions (TODAY) i'm going to clean it up and do some optimizing.
+Gear: Any% Blade + Nemesis + Booster
 
-You can grind health a bit for safety at Labyrinth I, by item quitting in Labyrinth H and overflowing off of anything in the room.
+TA: IQ
+safe strat (loses about 25s)
+	F1: computer, save, IQ
+	F1: map teleport, Nemesis from sign, blade from door to weeds, save
+	optional but highly recommended
+		F1: execution chamber IQ, cthulhu for health (each LC is about 6s, reloading/IQing is about 18s), save, reload. 103 HP = ~1:40, over half is the setup. there is a faster setup but you will have 5 hp for a very long time without this.
+	F1: weeds, save, weed, IQ, door, save in Arthur's house
 
-There are detailed info on Item Quit and other things somewhere in the depths of this pastebin, and i'll have a writeup on why things are in this route eventually.
+	F1: reservoir, IQ, flowers, save
+	F2: GY, IQ
+	F1: flowers, save, door, IQ
+	F1: teleporter, save
 
-Massive thanks to periwinkle, ikuyo, and the rest of the CS+ community for all their contributions that made me break this game in the first place in the ways i did.
-
-Balrog Skip Skip Skip
-
-	F1: do opening, save AFTER collecting Polar Star, IQ in bottom right shack in mimiga village
-	F2: trigger balrog cutscene, NO, leave to mimiga village
-	collect Arthur's house key, enter Arthur's House, save
-	return to graveyard, Item Quit
-	F2: exit Arthur's House, Item Quit
-	F1: exit Start Point, collect Arthur's Key, collect Map System, go to Arthur's House, save
-	F2: go to MiBox, save
-
-Item Quit
-	F1: Arthur's House, IQ
-	F2: exit door (Sand Zone), IQ
-	F1: Arthur's House, leave through door, IQ
-	F1: interact with door
-	go back to Arthur's House, receive BOOSTER 2.0, optionally collect life capsule, save
-	
-Spur
-	F3: Travel to Hermit Gunsmith, IQ
-	F1: Map teleport to Bushlands, collect Missiles chest for Spur, save, reload
-	F1: go to bushlands save point, save, exit and IQ
-	F1: exit door to Arthur's House
-
-Iron Bond
-	F2: go to Graveyard room, Item Quit
-	F1: exit Arthur's House, Item Quit
-	F1: interact with teleporter, save
 	F2: IQ
 	F1: map teleport to Bushlands, breakdown to Plantation
 	enter momorin hideout, IQ
-	F2: exit Start Point, enter Storehouse, save
-	F1: go to Labyrinth, save
-	F2: exit to plantation, IQ
+	F3: exit Start Point, enter Storehouse, save, exit to plantation, IQ
+	F1: locket to Labyrinth, save
 	F1: give Ma Pignon to Life Capsule, talk again for Iron Bond, save
-
-F1: Arthur's House
-F2: Storehouse
-F3: new game
+	F2: outer wall, IQ, F2: egg 00, left door, IQ, F1: left door to arthur's house, save.
 
 Undead Core, Doctor, Misery
 	IQ in MiBox
