@@ -1,165 +1,233 @@
-Updated Route w/Nemesis
+Reverse Boss Order Route, CS3D
 
-F1: opening to shack, IQ
-F2: do the balrog thing, door, collect map system, save in mibox, IQ in mimi
-TA: fireball chest, IQ
-F1: door, teleporter, save, mimi IQ *optional: collect 2 hp life capsule for added safety, loses about 15 seconds*
-F1: computer, save
+sections organized by my speedrun splits
+*#* or *TA denotes reloading the game and loading the respective file
+if an object is just stated, it generally means to interact with that object by pressing Down. Stuff that's done as the glitchless or regular progression will generally be omitted - please practice the route first.
 
-Gear: Any% Blade + Nemesis + Booster
+Area names inside asterisks are a helper to keep track of where you should end up
 
-TA: IQ
-safe strat (loses about 25s)
-	F1: computer, save, IQ
-	F1: map teleport, Nemesis from sign, blade from door to weeds, save
-	optional but highly recommended
-		F1: execution chamber IQ, cthulhu for health (each LC is about 6s, reloading/IQing is about 18s), save, reload. 103 HP = ~1:40, over half is the setup. there is a faster setup but you will have 5 hp for a very long time without this.
-	F1: weeds, save, weed, IQ, door, save in Arthur's house
+Balrog Skip Skip Skip Skip
+	*1*: New File
+		- Opening to Balrog Shack, Item Quit (shack)
+	*2*: New File
+		- Trigger Balrog fight, NO, leave door
+		**Mimiga Village**
+		- collect Map System
+		- Save in Mimiga Village Save Point "mibox"
+		- Item Quit in Mimiga Village
+	*TA:
+		- Fireball Chest, Item Quit (Arthur's House)
+	*1*: New File
+		- Optional: Easy Difficulty
+		- Cancel opening, avoid upper trigger, exit door
+		**Sand Zone**
+		- Teleport to Arthur's House, save
+		- Item Quit in Mimiga Village
+		- Computer (Map System), save
 
-	F1: reservoir, IQ, flowers, save
-	F2: GY, IQ
-	F1: flowers, save, door, IQ
-	F1: teleporter, save
+Bushtown Shuffle
+	*TA:
+		- Item Quit
+	*1*:
+		- Map System teleport
+		- Santa's House sign for Nemesis
+		- Santa's Key for Booster 2.0, Arms Barrier, and 290 Counter
+		- door to Bushlands Save Point for Blade
+		- save at far right
+	*1*:
+		- enter Execution Chamber, Item Quit
+		- cthulhu for an arbitrary amount of HP
+			- probably not worth trying to skip until sub hour
+		- save
+	*1*:
+		- collect the Rusty Key (you need it much later)
+		- Bushlands Save Room, save
+		- Item Quit in Bushlands, door to Arthur's House (save)
+		- Item Quit in Reservoir
 
-	F2: IQ
-	F1: map teleport to Bushlands, breakdown to Plantation
-	enter momorin hideout, IQ
-	F3: exit Start Point, enter Storehouse, save, exit to plantation, IQ
-	F1: locket to Labyrinth, save
-	F1: give Ma Pignon to Life Capsule, talk again for Iron Bond, save
-	F2: outer wall, IQ, F2: egg 00, left door, IQ, F1: left door to arthur's house, save.
+AMBER NOTE: Rusty Key saves a few seconds with breakdown over Map System.
 
-Undead Core, Doctor, Misery
-	IQ in MiBox
-	F1: Map teleport to Bushlands, breakdown glitch, end in Plantation
-	Enter hideout, leave storehouse and IQ in plantation
-	F1: Map teleport to Bushlands, breakdown glitch, end in Sand Zone
-	interact with sign below spawn point, IQ in Last Cave
-	F1: exit Arthur's House door, walk to shack, IQ
-	F3: exit Start Point, re-enter Shack and save, exit shack and IQ
-	F1: exit Arthur's door, IQ
-	F1: exit Arthur's door, IQ (again)
-	F1: exit Arthur's door
-	fight and defeat Undead Core
-	make way to end of Falling Tower, save
-	F3: go to Throne Room, IQ
-	F1: exit Falling Tower, fight Doctor
-	fight Muscle Doctor
-	enter black space, fall down, fall down
-	fight Misery
+Iron Bond		
+	*1*:
+		- Flowers, save
+	*2*:
+		- Enter Graveyard, Item Quit
+	*1*:
+		- Flowers, save, door, Item Quit (Ma Pignon)
+	*1*:
+		- Teleporter (Ma Pignon), save
+	*2*:
+		- Item Quit
+	*1*:
+		- Rusty Key Teleport, Breakdown to Plantation
+		- enter Momorin's Hideout (Storehouse), exit left door to Plantation, Item Quit
+	*3*:
+		- avoid upper trigger (IT WILL SOFTLOCK YOU), exit door (Storehouse), save
+		- exit to Plantation, Item Quit
+	*1*:
+		- Locket Teleport, Life Capsule twice (Iron Bond), save
+	*2*:
+		- Item Quit in Mimiga Village
+	*1*:
+		- left door to Arthur's House (it will unlock), save
 
-F1: Prefab 2
-F2: Storehouse
-F3: Prefab 1
+Undead Core, The Doctor, Misery
+	*3*:
+		- Item Quit in Plantation
+	*1*:
+		- Rusty Key Teleport, Breakdown to Sand Zone
+		- drop down to sign on the left, enter the sign (Last Cave), Item Quit
+	*1*:
+		- door (Balcony), enter prefab, Item Quit
+	*3*:
+		- Right door (Balcony), enter Prefab, save
+		- exit Prefab, Item Quit in Throne Room
+	*1*:
+		- door (The King's Table), Item Quit
+	*1*:
+		- door (Black Space), defeat ***Undead Core***
+		- save at end of Falling Tower, Item Quit in Throne Room
+	*1*:
+		- door (The King's Table), defeat the Doctor
+		- enter Black Space, drop down two levels to Throne Room
+		- defeat Misery
+		- save in Prefab 2
 
 Red Ogre
-	F1: save in prefab
-	F3: IQ
-	F1: door, go to last cave, kill red ogre, return to prefab, save
-	F1: last cave, IQ
-	F1: leave door, IQ
-	F1: leave door, leave through right door, IQ
-	F1: leave door, IQ
-	F1: leave door, leave left door, IQ
-	F1: leave door, save in Arthur's House
-	
-F1: Arthur's House
-F2: Storehouse
-F3: Prefab 1
+	*3*:
+		- Item Quit in Balcony
+	*1*:
+		- Door (Last Cave Hidden), kill Red Ogre
+		- return to Prefab, save
+	*2*:
+		- Item Quit in Mimiga Village
 
 Ma Pignon
-	F1: return to Arthur's House
-	teleport to Egg Corridor, reach cthluhu's abode, save
-	*optional: collect life capsules on way
-	leave abode, IQ
-	F2: exit storehouse (right exit), save in Arthur's House
-	F2: go to Farm, IQ
-	F2: immediately exit without closing inventory
-	F1: use any item, wait until mimiga village, save at shack door
-	F3: door, IQ
-	F3: door, IQ
-	F3: door, IQ
-	F1: talk to fat mimiga, arthur' s house, save, right door, IQ
-	F1: right door, left door, IQ
-	F1: right door, save
-	F2: go to Graveyard, IQ
-	F1: leave door, fight Ma Pignon, go to MiBox, save
-	
-F1: MiBox
-F2: Arthur's House
-F3: Prefab 1
+	*1*:
+		- Door (Arthur's House), computer (YES), Egg Corridor
+		- save in Cthulhu's Abode, Item Quit in Egg Corridor
+	*2*:
+		- door, save in Arthur's House
+	*TA: this MIGHT save time?
+		- Item Quit
+	*2*: this MIGHT save time?
+		- computer for Booster 2.0, save
+	*2*:
+		- Item Quit in Yamashita Farm
+	*2*:
+		- exit game WITHOUT closing menu
+	*1*:
+		- interact with anything in inventory
+		- door to shack (SAVE DISC)
+	*3*:
+		- door, walk to Last Cave, Item Quit
+	*3*:
+		- door (plantation), Item Quit
+	*1*:
+		- BIG chungus, arthur's house (Storehouse), save
+	*2*:
+		- go to graveyard, IQ
+	*1*:
+		- left door, fight Ma Pignon, save in MiBox
 
 Sisters
-	F3: door, IQ (Balcony)
-	F1: door, IQ (Last Cave)
-	F1: door, IQ (Plantation)
-	F1: door, right door, IQ (Outer Wall)
-	F1: door, left door, enter detour, IQ
-	F1: door, left to Sisters. kill Sisters, save, leave room, IQ
-	F1: top left door, save in Arthur's House, IQ
-	
-F1: Arthur's House
-F2: Arthur's House
-F3: Prefab 1
+	*3*:
+		- Item Quit in Last Cave
+	*1*:
+		- door, Item quit in Plantation
+	*1*:
+		- door, right door, Item Quit in Outer Wall
+	*1*:
+		- door, left door, enter Detour, Item Quit in Detour
+	*1*:
+		- door, go to Egg Observation Room?
+		- kill the Sisters, save
+		- left door, Item Quit in Egg Corridor?
+	*1*:
+		- left door to Arthur's House, save, Item Quit
 
 Ironhead
-	F3: leave door, IQ
-	F1: leave door, kill Ironhead
-	collect Locket afterwards, go to Labyrinth B to save
-	
+	*3*:
+		- door, Item Quit (Sand Zone)
+	*1*:
+		- door, kill Ironhead, save in MiBox
+
 Core
-	F2: IQ
-	F1: left door, IQ (Sand Zone)
-	F2: Arthur's door, IQ (Stream)
-	F1: left door, safety save if needed, Core sequence, kill core
-	save in dark room
-	F2: exit Arthur's house, IQ (Mimiga Village)
-	F1: exit left door, IQ
-	
-F1: Arthur's House
-F2: Arthur's House
-F3: Prefab 1
+	*2*:
+		- Item Quit
+	*1*:
+		- door, Item Quit (Sand Zone)
+	*2*:
+		- door, Item Quit (Main Artery)
+	*1*:
+		- door, core sequence, kill Core
+		- save in Dark Place
+	*2*:
+		- Item Quit in Mimiga Village
+	*1*:
+		- left door, trigger Booster cutscene, save in Arthur's House
+		- Item Quit in Boulder Chamber
 
 Balrog 3, Monster X, Puu Black
-	F1: go to Labyrinth L, IQ
-	interact flowers, save
-	F1: go to Boulder Chamber, interact left side of boulder, kill Balrog
-	go to Arthur's house, save, go to Labyrinth L, IQ
-	F1: exit Arthur's house to Clinic, collect Clinic Key, safety save if needed, go kill Monster X
-	F1: Go to Clinic, kill Puu Black, save in Camp
-	F2: IQ
-	F1: leave Camp, save in top sand zone save point ****SKIP LIFE CAPSULE****
-	
-F1: Sand Zone
-F2: Arthur's House
-F3: Prefab 1
-	
-Toroko, Omega, Curly
-	F3: leave door, IQ (Balcony)
-	F1: go to Curly's door, IQ (Last Cave Hidden)
-	F1: interact Life Capsule
-	F1: go to Toroko fight, kill Toroko, collect Blade
-	F1: proceed to bug room as glitchless, unfortunately, save
-	F2: IQ
-	F1: exit door, make way to Omega, kill Omega, make way to Curly, kill Curly. saying Yes is faster but No gives you 3 HP. Return to Boulder Chamber and save.
+	*1*:
+		- Flowers, save
+	*1*:
+		- Boulder Chamber, left side of boulder, kill Balrog
+		- collect Super Missiles
+		- save in Arthur's House
+		- Item Quit in Labyrinth W
+	*1*:
+		- door, collect Clinic Key, kill Monster X, kill Puu Black, save in Clinic
 
-F1: Boulder Chamber
-F2: Arthur's House
-F3: Prefab 1
+Toroko, Omega, Curly
+	*2*:
+		- Item Quit
+	*1*:
+		- door, save in upper Sand Zone save point
+	*3*:
+		- Item Quit in Balcony
+	*1*:
+		- Curly's door, Item Quit (Last Cave Hidden)
+	*1*:
+		- Life Capsule
+		Optional: collect Life Pot
+		- kill Toroko
+		- save in Labyrinth I
+	*2*:
+		- Item Quit
+	*1*:
+		- Robit, teleport, return to Arthur's house, save
+		- Item Quit
+	*1*:
+		- Rusty Key teleport, leave through teleporter
+		- kill Omega
+		- kill Curly, say YES
+		- return to Boulder Chamber, save
 
 Balfrog, Balrog 2
-	F2: go to Farm, IQ
-	F2: Map teleport to Bushlands, save at Santa's house, reload
-	F2: IQ
-	F1: interact with door, kill Balfrog
-	F1: collect Rusty Key, kill Balrog 2, save in Bushlands outside save point
+	*2*: 
+		- Item Quit in Yamashita Farm
+	*2*: 
+		- Map teleport to Bushlands, save at Santa's House
+	*2*:
+		- Item Quit
+	*1*:
+		- centre door, kill Balfrog
+		- kill Balrog 2, save in Bushlands east save point
 
 Igor, Balrog 1
-	F2: return to Arthur's House, teleport to Egg Corridor, IQ
-	F1: go through Gum door, exit Egg 00, kill Igor, go to Egg save point, save, 
-	F2: IQ
-	F1: exit door, go to shack, end him, return to Arthur's house, save
+	*2*:
+		- Item Quit in Egg Corridor
+	*1*:
+		- enter Gum Key door, talk to Sue (NO)
+		- kill Igor, save in save point
+	*2*:
+		- Item Quit
+	*1*:
+		- door, kill Balrog 1, save in Arthur's House
 
-The End
-	F3: exit door, IQ
-	F1: exit door, save (optional but highly recommended), do hell
+And the rest
+	*3*: Item Quit in Balcony
+	*1*: door, go to Balcony 2, enter Prefab 2, save if you want, do Hell
+
+Timing Ends on final textbox input
