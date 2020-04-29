@@ -1,0 +1,68 @@
+Terminology
+
+	Item Quit
+		- the main glitch in Cave Story 3D, almost all other glitches are simply the results of this.
+
+		- Normally, when you pause the game, the following happens
+			- store the current script ID in memory
+			- load ArmsItem.sjs, the script for the inventory
+			- open the Inventory
+		- it is important to note that loading ArmsItem ONLY happens when you originally open the inventory
+		- When you close the inventory, the following happens:
+			- immediately stop all scripts from executing
+			- clear all textboxes
+			- close the inventory
+			- check the script stored in memory
+			- reload that script
+		- The game never actually initializes any of these variables, but that should never matter.
+
+		- HOWEVER, by exiting the game with the inventory still open, the game never clears whether the inventory is open or not.
+		- this means that you can load the game with the inventory open.
+
+		This means a couple of things.
+
+		1. when you load a file, the game will load the area's script, and NOT the script of the inventory. the inventory simply works as all other area scripts do, meaning you can call other events this way.
+		2. by closing the inventory, you can load the stored script into the current room, allowing executing its events in the wrong room.
+
+		this is the basis of all glitched categories.
+
+	"Map (System)" Teleport, "Locket" Teleport, <other item) Teleport:
+		- by loading Arthur's House with the inventory already open, you can activate the teleporter via the inventory items. This enables you to carry the Item Quit state to other areas of the game very easily, or through overflowing, to access other parts of the game very early. Moving the cursor looks like it tries to teleport you to Egg Corridor, but it should be mentioned what is triggering this is the game trying to load the item name text rather than the act of moving the cursor.
+		- If you close the menu before the HUD appears, the game will not have yet triggered the event to return control to the player, resulting in a softlock.
+		- this is because they share the same script ID values
+		- ID values #6007 to #6011 all will trigger event #6011 in Arthur's House, the teleport to destroyed corridor. As this is the only event of these that DOESNT disable input, you can act immediately. #6006 would trigger it, however this is a dummy entry for the life capsules.
+
+			(#10xx) Any weapon      = Egg Corridor
+			(#50xx) Item name       = Egg Corridor
+			(#6001) Arthur's Key    = Egg Corridor
+			(#6002) Map System      = Bushlands
+			(#6003) Santa's Key     = Sand Zone
+			(#6004) Locket		    = Labyrinth B (Booster)
+			(#6005) Beast Fang      = Plantation
+			(#6007) ID Card         = Egg Corridor?
+			(#6008) Jellyfish Jelly = Egg Corridor?
+			(#6009) Rusted Key		= Egg Corridor?
+			(#6010) Gum Key			= Egg Corridor?
+			(#6011) Gum Base 		= Egg Corridor?
+
+	Break Down, Breakdown, etc:
+		Simply a shorthand for the following sequence:
+			- using an item quit while saved in Arthur's House to teleport to a map used in the normal ending
+			- triggering the normal ending sequence with a weapon description (#10xx)
+			- closing the inventory or otherwise interrupting the sequence to break out
+		This is used in most categories that do not warp into an ending to skip from Arthur's House to Plantation immediately.
+
+	"Overflow", "Inventory Overflow":
+		There are two kinds of overflows, however they both abuse the same principle.
+
+		An important note: the game never clears its script buffer.
+
+		- When Cave Story looks to find an event, it will stop at one of three things:
+			- the script ID being searched for
+			- a script ID that is a higher number than what is being looked for
+			- a null terminator, which the game appends to all scripts loaded
+		- However, the game does NOT have any handling for the latter two situations, and will just run anything it finds.
+		- the former is very commonly used in most categories, particularly Reverse Boss Order
+		- the latter requires much more setup, as ArmsItem is the second longest script in the game (and will generally overwrite anything in memory.) The only script that will not get completely overwritten is Plantation's. Sadly this is not actually useful.
+
+		- Sometimes people will say "Inventory Overflow", this is simply overflowing with the inventory open, generally past a null terminator. This is used in Reverse Boss Order to carry Yamashita Farm's script to Mimiga Village for example.
